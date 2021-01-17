@@ -9,10 +9,10 @@ Following are the starter dependencies
 Hazelcast added using maven dependency
 
     <dependency>
-			<groupId>com.hazelcast</groupId>
-			<artifactId>hazelcast-all</artifactId>
-			<version>4.0.2</version>
-		</dependency>
+	<groupId>com.hazelcast</groupId>
+	<artifactId>hazelcast-all</artifactId>
+	<version>4.0.2</version>
+    </dependency>
     
 An Employee dataset was used to test the performance improvement after integrating hazelcast.
 First time it hits the database, observed by enabling show-sql and print statement added to the service method
